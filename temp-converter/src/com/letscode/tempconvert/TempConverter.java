@@ -3,15 +3,15 @@ package com.letscode.tempconvert;
 public class TempConverter {
 
     public static void main(String[] args) {
-        double tCelsius = 18d;
-        final double tFahrenheit = (tCelsius * 1.8) + 32;
-        final double tKelvin = tCelsius + 273.15;
-        final double tReaumur = tCelsius * 0.8;
-        final double tRankine = (tCelsius * 1.8) + 491;
+        float tCelsius = 18f;
+        final float T_FAHRENHEIT = (tCelsius * 1.8f) + 32;
+        final float T_KELVIN = tCelsius + 273.15f;
+        final float T_REAUMUR = tCelsius * 0.8f;
+        final float T_RANKINE = (tCelsius * 1.8f) + 491;
 
-        System.out.printf("%.2f graus Celsius equivalem a %.2f graus Fahrenheit.\n", tCelsius, tFahrenheit);
-        System.out.printf("%.2f graus Celsius equivalem a %.2f Kelvin.\n", tCelsius, tKelvin);
-        System.out.printf("%.2f graus Celsius equivalem a %.2f graus Reaumur.\n", tCelsius, tReaumur);
-        System.out.printf("%.2f graus Celsius equivalem a %.2f graus Rankine.\n", tCelsius, tRankine);
+        System.out.printf("%.2f graus Celsius equivalem a %.2f graus Fahrenheit.\n", tCelsius, T_FAHRENHEIT);
+        System.out.printf("%.2f graus Celsius equivalem a %.2f Kelvin.\n", tCelsius, T_KELVIN);
+        System.out.printf("%.2f graus Celsius equivalem a %.2f graus Reaumur.\n", tCelsius, T_REAUMUR);
+        System.out.printf("%.2f graus Celsius equivalem a %.2f graus Rankine.\n", tCelsius, T_RANKINE);
     }
 }
